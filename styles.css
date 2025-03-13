@@ -1,0 +1,122 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+/* Sidebar Styling */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #1e3a8a;
+  color: white;
+  position: fixed;
+  padding: 20px;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.sidebar a:hover {
+  background-color: #2563eb;
+}
+
+.sidebar .active {
+  background-color: #1d4ed8;
+  font-weight: bold;
+}
+
+/* Main Content Area */
+.main-content {
+  margin-left: 270px;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  padding: 15px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.attendance-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.attendance-card h3 {
+  font-size: 20px;
+  color: #2563eb;
+}
+
+.attendance-status {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.status-red {
+  color: red;
+}
+
+.status-green {
+  color: green;
+}
+
+.status-yellow {
+  color: orange;
+}
+
+.class-schedule {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.class-schedule h2 {
+  color: #1e3a8a;
+}
+
+.class-schedule table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.class-schedule th, .class-schedule td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.class-schedule th {
+  background: #1e3a8a;
+  color: white;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .sidebar {
+      width: 200px;
+  }
+  .main-content {
+      margin-left: 220px;
+  }
+}
