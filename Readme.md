@@ -38,7 +38,7 @@ The **Amizone AI Chatbot** is an intelligent assistant designed to **help Amity 
 ## 🚀 **Installation & Setup**
 ### 🔹 **Step 1: Clone the Repository**
 ```sh
-git clone https://github.com/goblinasaddy/Amizone-Chatbot.git
+git clone https://github.com/goblinasaddy/HackAThon.git
 cd Amizone-Chatbot
 
 
